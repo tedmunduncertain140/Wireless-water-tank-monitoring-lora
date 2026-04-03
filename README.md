@@ -75,7 +75,7 @@ This project implements a **smart wireless water tank monitoring system** using:
 | Firmware | PlatformIO (VS Code) |
 
 
----
+
 
 ## ⚙️ Working Principle
 
@@ -95,15 +95,6 @@ This project implements a **smart wireless water tank monitoring system** using:
 
 ---
 
-## 🔌 Circuit Design
-
-👉 Designed using **EasyEDA**
-
-- Proper grounding
-- Surge protection
-- RF antenna matching
-
----
 
 ## 📡 Communication Protocol
 
@@ -119,10 +110,6 @@ This project implements a **smart wireless water tank monitoring system** using:
 2. Create topics:
 
 3. Use Node-RED dashboard for UI
-
----
-
-
 
 
 ## 👨‍💻 Author
