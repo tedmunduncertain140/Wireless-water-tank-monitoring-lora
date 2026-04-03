@@ -73,7 +73,7 @@ This project implements a **smart wireless water tank monitoring system** using:
 | Backend | Node-RED |
 | MQTT | Mosquitto / HiveMQ |
 | Firmware | PlatformIO (VS Code) |
-| PCB | EasyEDA |
+
 
 ---
 
